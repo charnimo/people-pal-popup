@@ -17,8 +17,9 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 214 89% 52%;
+    --primary-foreground: 0 0% 100%;
+    --primary-glow: 214 89% 62%;
 
     --secondary: 210 40% 96.1%;
     --secondary-foreground: 222.2 47.4% 11.2%;
@@ -31,6 +32,24 @@ All colors MUST be HSL.
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
+
+    /* Chat specific colors */
+    --chat-bg: 0 0% 98%;
+    --chat-user: 214 89% 52%;
+    --chat-bot: 0 0% 95%;
+    --chat-border: 220 13% 91%;
+    
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(214 89% 52%), hsl(214 89% 62%));
+    --gradient-chat: linear-gradient(180deg, hsl(0 0% 100%), hsl(210 40% 98%));
+    
+    /* Shadows */
+    --shadow-chat: 0 10px 40px -10px hsl(214 89% 52% / 0.2);
+    --shadow-button: 0 4px 12px hsl(214 89% 52% / 0.3);
+    
+    /* Animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
